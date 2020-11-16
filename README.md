@@ -127,7 +127,7 @@ The following example uses [justinlatimer's node-midi library](https://github.co
 
 ```javascript
 const midi = require('midi');
-const opz = require('opz');
+const opz = require('opzjs');
 
 // Set up a new input.
 const input = new midi.Input();
