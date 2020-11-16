@@ -40,7 +40,7 @@ Decodes events from the [Web MIDI API](https://www.w3.org/TR/webmidi/). Also ref
 ### Install with NPM
 
 ```
-npm install opz
+npm install opzjs
 ```
 
 ### Install for Browser

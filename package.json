@@ -1,5 +1,5 @@
 {
-  "name": "opz",
+  "name": "opzjs",
   "version": "1.0.0",
   "description": "Midi parser for the OP-Z (teenage engineering)",
   "scripts": {
