@@ -114,6 +114,26 @@ glean that it was a kick).
 * +/- octave shift
 * project, mixer, tempo, screen
 
+#### Dial kill (stop button)
+
+When the OP-Z is playing and the stop key is pressed [a series of midi notes](https://github.com/nbw/opz/issues/1) are sent to quiet the dials. As it's unclear
+which page (or color) these messages apply to, they've been labeled as "kill".
+
+Example:
+```js
+{
+  track: "kick",
+  action: "dial",
+  velocity: 0,
+  value: {
+    dial: 2
+    dialColor: "kill"
+    page: 30
+    pageColor: "kill"
+  }
+}
+```
+
 ## Usage
 ### OP-Z Setup
 
