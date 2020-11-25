@@ -3,24 +3,27 @@
   "version": "1.0.0",
   "description": "Midi parser for the OP-Z (teenage engineering)",
   "scripts": {
-    "build": "npm run build:opz && npm run build:dist",
+    "build": "npm run build:opz && npm run build:dist && npm run build:dist:min",
     "build:opz": "Make build_opz",
     "build:dist": "npm run browserify",
+    "build:dist:min": "npm run minify",
     "build:lib": "babel --config-file ./.lib.babelrc src --out-dir lib",
-    "browserify": "browserify lib/index.js -o dist/opz.js -s OPZ -g [ babelify --configFile ./.dist.babelrc ]"
+    "browserify": "browserify lib/index.js -o dist/opz.js -s OPZ -g [ babelify --configFile ./.dist.babelrc ]",
+    "minify" : "uglifyjs dist/opz.js -o dist/opz.min.js -c -m"
   },
   "author": "Nathan Willson <contact@nathanwillson.com>",
   "license": "MIT",
   "main": "lib/index.js",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/nbw/opz.git"
+    "type": "git",
+    "url": "https://github.com/nbw/opz.git"
   },
   "dependencies": {
     "@babel/preset-env": "^7.12.1",
     "@babel/runtime": "^7.12.1",
     "js-yaml": "^3.14.0",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "uglify-js": "^3.12.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
@@ -28,5 +31,13 @@
     "babelify": "^10.0.0",
     "browserify": "^17.0.0"
   },
-  "keywords": ["op-z", "opz", "op1","teenage", "midi", "sequencer", "synthesizer"]
+  "keywords": [
+    "op-z",
+    "opz",
+    "op1",
+    "teenage",
+    "midi",
+    "sequencer",
+    "synthesizer"
+  ]
 }
