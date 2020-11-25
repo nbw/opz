@@ -1,6 +1,6 @@
 {
   "name": "opzjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Midi parser for the OP-Z (teenage engineering)",
   "scripts": {
     "build": "npm run build:opz && npm run build:dist && npm run build:dist:min",
@@ -9,7 +9,7 @@
     "build:dist:min": "npm run minify",
     "build:lib": "babel --config-file ./.lib.babelrc src --out-dir lib",
     "browserify": "browserify lib/index.js -o dist/opz.js -s OPZ -g [ babelify --configFile ./.dist.babelrc ]",
-    "minify" : "uglifyjs dist/opz.js -o dist/opz.min.js -c -m"
+    "minify": "uglifyjs dist/opz.js -o dist/opz.min.js -c -m"
   },
   "author": "Nathan Willson <contact@nathanwillson.com>",
   "license": "MIT",
