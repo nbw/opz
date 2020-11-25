@@ -202,7 +202,7 @@ dial:
     14: *blue
     15: *yellow
     16: *red
-    123: *kill
+    23: *kill
   page:
     kick: &page_defaults
       1: *white
@@ -221,7 +221,7 @@ dial:
       14: *yellow
       15: *yellow
       16: *yellow
-      123: *kill
+      23: *kill
     snare:
       <<: *page_defaults
     perc:

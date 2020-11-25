@@ -325,7 +325,7 @@ module.exports={
       "14": "blue",
       "15": "yellow",
       "16": "red",
-      "123": "kill"
+      "23": "kill"
     },
     "page": {
       "kick": {
@@ -345,7 +345,7 @@ module.exports={
         "14": "yellow",
         "15": "yellow",
         "16": "yellow",
-        "123": "kill"
+        "23": "kill"
       },
       "snare": {
         "1": "white",
@@ -364,7 +364,7 @@ module.exports={
         "14": "yellow",
         "15": "yellow",
         "16": "yellow",
-        "123": "kill"
+        "23": "kill"
       },
       "perc": {
         "1": "white",
@@ -383,7 +383,7 @@ module.exports={
         "14": "yellow",
         "15": "yellow",
         "16": "yellow",
-        "123": "kill"
+        "23": "kill"
       },
       "sample": {
         "1": "white",
@@ -402,7 +402,7 @@ module.exports={
         "14": "yellow",
         "15": "yellow",
         "16": "yellow",
-        "123": "kill"
+        "23": "kill"
       },
       "bass": {
         "1": "white",
@@ -421,7 +421,7 @@ module.exports={
         "14": "yellow",
         "15": "yellow",
         "16": "yellow",
-        "123": "kill"
+        "23": "kill"
       },
       "lead": {
         "1": "white",
@@ -440,7 +440,7 @@ module.exports={
         "14": "yellow",
         "15": "yellow",
         "16": "yellow",
-        "123": "kill"
+        "23": "kill"
       },
       "arp": {
         "1": "white",
@@ -459,7 +459,7 @@ module.exports={
         "14": "yellow",
         "15": "yellow",
         "16": "yellow",
-        "123": "kill"
+        "23": "kill"
       },
       "chord": {
         "1": "white",
@@ -478,7 +478,7 @@ module.exports={
         "14": "yellow",
         "15": "yellow",
         "16": "yellow",
-        "123": "kill"
+        "23": "kill"
       },
       "fx1": {
         "1": "white",
@@ -497,7 +497,7 @@ module.exports={
         "14": "yellow",
         "15": "yellow",
         "16": "yellow",
-        "123": "kill"
+        "23": "kill"
       },
       "fx2": {
         "1": "white",
@@ -516,7 +516,7 @@ module.exports={
         "14": "yellow",
         "15": "yellow",
         "16": "yellow",
-        "123": "kill"
+        "23": "kill"
       },
       "tape": {
         "1": "white",
@@ -535,7 +535,7 @@ module.exports={
         "14": "yellow",
         "15": "yellow",
         "16": "yellow",
-        "123": "kill"
+        "23": "kill"
       },
       "master": {
         "1": "white",
@@ -554,7 +554,7 @@ module.exports={
         "14": "yellow",
         "15": "yellow",
         "16": "yellow",
-        "123": "kill"
+        "23": "kill"
       },
       "perform": {
         "1": "white",
@@ -573,7 +573,7 @@ module.exports={
         "14": "yellow",
         "15": "yellow",
         "16": "yellow",
-        "123": "kill"
+        "23": "kill"
       },
       "module": {
         "1": "white",
@@ -592,7 +592,7 @@ module.exports={
         "14": "yellow",
         "15": "yellow",
         "16": "yellow",
-        "123": "kill"
+        "23": "kill"
       },
       "lights": {
         "1": "white",
@@ -611,7 +611,7 @@ module.exports={
         "14": "yellow",
         "15": "yellow",
         "16": "yellow",
-        "123": "kill"
+        "23": "kill"
       },
       "motion": {
         "1": "white",
@@ -630,7 +630,7 @@ module.exports={
         "14": "yellow",
         "15": "yellow",
         "16": "yellow",
-        "123": "kill"
+        "23": "kill"
       }
     }
   }
