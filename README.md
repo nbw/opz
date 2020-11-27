@@ -12,6 +12,7 @@ Decodes events from the [Web MIDI API](https://www.w3.org/TR/webmidi/). Also ref
 
 ## Table of Contents
 
+* [Examples](#examples)
 * [Installation](#installation)
   * [Install with NPM](#install-with-npm)
   * [Install for Browser](#install-for-browser)
@@ -25,7 +26,6 @@ Decodes events from the [Web MIDI API](https://www.w3.org/TR/webmidi/). Also ref
   * [Code Examples](#code-examples)
     * [Node Example](#node-example)
     * [Browser Example](#browser-example)
-* [Examples](#examples)
 * [Notes](#notes)
   * [Step components](#step-components)
 * [Contributions](#contributions)
@@ -33,6 +33,10 @@ Decodes events from the [Web MIDI API](https://www.w3.org/TR/webmidi/). Also ref
 * [Credit](#credit)
 * [License](#license)
 
+
+## Examples
+
+[1] [MIDI TETRIS](http://tetris.nathanwillson.com/): (https://github.com/nbw/tetris)
 
 
 ## Installation
@@ -228,10 +232,6 @@ function onMIDISuccess(midiAccess) {
 }
 </script>
 ```
-
-## Examples
-
-TBD.
 
 ## Notes
 ### Step components
