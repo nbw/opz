@@ -36,7 +36,9 @@ Decodes events from the [Web MIDI API](https://www.w3.org/TR/webmidi/). Also ref
 
 ## Examples
 
-[1] [MIDI TETRIS](http://tetris.nathanwillson.com/): (https://github.com/nbw/tetris)
+1. [MIDI TETRIS](http://tetris.nathanwillson.com/): (https://github.com/nbw/tetris)
+
+1. [SHAPES](https://github.com/nbw/shapes)
 
 
 ## Installation
