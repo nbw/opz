@@ -38,7 +38,9 @@ Decodes events from the [Web MIDI API](https://www.w3.org/TR/webmidi/). Also ref
 
 1. [MIDI TETRIS](http://tetris.nathanwillson.com/): (https://github.com/nbw/tetris)
 
-1. [SHAPES](https://github.com/nbw/shapes)
+1. [SHAPES](http://shapes.nathanwillson.com/): (https://github.com/nbw/shapes)
+
+1. [SINUSOID](http://sinusoid.nathanwillson.com/): (https://github.com/nbw/sinusoid)
 
 
 ## Installation
