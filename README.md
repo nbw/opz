@@ -13,6 +13,7 @@ Decodes events from the [Web MIDI API](https://www.w3.org/TR/webmidi/). Also ref
 ## Table of Contents
 
 * [Examples](#examples)
+* [Starter](#starter)
 * [Installation](#installation)
   * [Install with NPM](#install-with-npm)
   * [Install for Browser](#install-for-browser)
@@ -42,6 +43,11 @@ Decodes events from the [Web MIDI API](https://www.w3.org/TR/webmidi/). Also ref
 
 1. [SINUSOID](http://sinusoid.nathanwillson.com/): (https://github.com/nbw/sinusoid)
 
+## Starter
+
+[OP-Z Starter Repo](https://github.com/nbw/opz-starter)
+
+Useful just as a reference to get started.
 
 ## Installation
 
