@@ -43,6 +43,8 @@ Decodes events from the [Web MIDI API](https://www.w3.org/TR/webmidi/). Also ref
 
 1. [SINUSOID](http://sinusoid.nathanwillson.com/): (https://github.com/nbw/sinusoid)
 
+1. [SKETCH](http://sketch.nathanwillson.com/): (https://github.com/nbw/sketch)
+
 ## Starter
 
 [OP-Z Starter Repo](https://github.com/nbw/opz-starter)
